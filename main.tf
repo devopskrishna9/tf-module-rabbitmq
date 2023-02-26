@@ -57,4 +57,3 @@ resource "aws_mq_broker" "rabbitmq" {
     password = data.aws_ssm_parameter.PASS.value
   }
 }
-#
