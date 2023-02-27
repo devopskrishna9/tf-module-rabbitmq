@@ -4,7 +4,7 @@ resource "aws_security_group" "rabbitmq" {
   vpc_id      = var.vpc_id
 
   ingress {
-    description      = "rabbitmq"
+    description      = "Rabbitmq"
     from_port        = 5672
     to_port          = 5672
     protocol         = "tcp"
